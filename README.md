@@ -8,7 +8,7 @@ After the installation description below, I proceed to give a page-by-page descr
 
 This application was developed with the API provided by https://www.thecocktaildb.com/
 
-## Installation
+## >>>>>>>>>>Installation<<<<<<<<<<
 Download the app from the github link: https://github.com/lj8128/cs103a-cpa02
 
 Download nodejs and npm from https://nodejs.org and cd into the folder that contains the web app.
@@ -30,19 +30,19 @@ and start the project with
 nodemon
 ```
 
-## Welcome Page
+## >>>>>>>>>>Welcome Page<<<<<<<<<<
 
 When you first access the webpage, you are greeted by the welcome page, prompting you to sign-up or log in. The image of the cocktail is randomly generated, each time you visit the page.
 
 <img width="726" alt="Welcome_page" src="https://user-images.githubusercontent.com/93382045/167271890-a0d8f85f-9d2a-4dba-991f-7bc2bcfa8033.png">
 
-## Login Page
+## >>>>>>>>>>Login Page<<<<<<<<<<
 
 Login or Signup here. In signing up, choose your favorite cocktail type from the drop down. The drop down items have been populated by the categories of drinks that were made available by the API in https://www.thecocktaildb.com/
 
 <img width="706" alt="Screen Shot 2022-05-07 at 5 16 40 PM" src="https://user-images.githubusercontent.com/93382045/167271938-b91d643d-dd20-453d-992f-caaba3d0d210.png">
 
-## Add/Update Entry Page
+## >>>>>>>>>>Add/Update Entry Page<<<<<<<<<<
 
 You can view, update, and delete your journal entries from this page. Note that the page dynamically provides the number of entries that you have, as well as the average rating of your entries. The latter has been obtained using mongoose's aggregation feature.
 
@@ -58,7 +58,7 @@ To delete an entry, simply click on the "Delete Entry" link featured below every
 
 <img width="945" alt="Screen Shot 2022-05-07 at 5 28 51 PM" src="https://user-images.githubusercontent.com/93382045/167272258-5000143c-5f94-441a-b123-c8b964bd01e4.png">
 
-## Search Journal Page
+## >>>>>>>>>>Search Journal Page<<<<<<<<<<
 
 You can search for an entry/entries based on the entry's/entries' drink name, food pairing, or rating. Simply populate the relevant input field and click submit. The searching was implemented using mongoose's query features. Below is an example search.
 
