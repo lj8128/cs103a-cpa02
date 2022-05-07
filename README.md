@@ -4,7 +4,7 @@
 ***username: ll123*** &emsp; (The first two letters are 'LL' in lower-case.)<br>
 ***password: abc***<br>
 
-Link to movie explaining the app: 
+Link to movie explaining the app: https://drive.google.com/drive/folders/1OLz_VJ3yK1UtqjJvelDfjS1txTocyJyR?usp=sharing
 
 This is a web application that enables you to keep an online cocktail journal. You can use it to add and update journal entries, and search your journal based on certain inputs (e.g. name of drink, food pairing, rating, etc.).
 
