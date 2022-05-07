@@ -44,7 +44,7 @@ nodemon
 
 ## >>>>>>>>>>Add/Update Entry Page<<<<<<<<<<
 
-> You can view, update, and delete your journal entries from this page. Note that the page dynamically provides the number of entries that you have, as well as the average rating of your entries. The latter has been obtained using mongoose's aggregation feature.*
+> You can view, update, and delete your journal entries from this page. Note that the page dynamically provides the number of entries that > you have, as well as the average rating of your entries. The latter has been obtained using mongoose's aggregation feature.*
 
 <img width="926" alt="Screen Shot 2022-05-07 at 5 22 23 PM" src="https://user-images.githubusercontent.com/93382045/167272081-093d1613-066f-484a-8b8d-01000172262b.png">
 
