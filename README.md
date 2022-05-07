@@ -48,9 +48,9 @@ nodemon
 
 <img width="926" alt="Screen Shot 2022-05-07 at 5 22 23 PM" src="https://user-images.githubusercontent.com/93382045/167272081-093d1613-066f-484a-8b8d-01000172262b.png">
 
-*To add a new entry, simply populate the fields with values. If the name of the drink you entered is available in the database of https://www.thecocktaildb.com/ a picture corresponding to the drink will automatically be paired with your entry upon submission.
+*To add a new entry, simply populate the fields with values. If the name of the drink you entered is available in the database of https://www.thecocktaildb.com/ a picture corresponding to the drink will automatically be paired with your entry upon submission.*
 
-The entries are sorted by the date and time of your entry (not the last time you updated the entry). So you may have to scroll down to see the entry you added most recently. Below are pictured a few entries:*
+*The entries are sorted by the date and time of your entry (not the last time you updated the entry). So you may have to scroll down to see the entry you added most recently. Below are pictured a few entries:*
 
 <img width="704" alt="Screen Shot 2022-05-07 at 5 26 32 PM" src="https://user-images.githubusercontent.com/93382045/167272199-919c031a-503d-4003-aef4-f9cb6c945cc6.png">
 
