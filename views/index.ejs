@@ -1,43 +1,26 @@
-
-
-    <div class="jumbotron">
-        <h1>PA03: Course Finder Fall20-Spr21 </h1>
-        <p></p>
-    </div>
-
-    <p class="p-3 m-3 border border-primary bg-light">
-        The goal of this assignment is to write an app that will let
-        students pick their courses for the year. Since we don't have 
-        the data for this year (due to workday issues), we will use the 
-        2020-2021 Academic year data. You must signup or login to see
-        the courses and create your schedule.
-    </p>
     
-    <% if (true || loggedIn) {%>  
-        <form method="post" action="/courses/bySubject" >
-            Show Courses by Subject: 
-              <input type="text" name="subject" 
-                     placeholder="e.g. COSI"
-                     onkeyup="this.value=this.value.toUpperCase();">
-            <input type="submit">
-        </form>
+    <% if (!loggedIn) {%>  
         <br>
-        <form method="post" action="/courses/byInst">
-            Show Courses by Instructor Email: 
-            <input type="text" name="email" 
-                   placeholder="e.g. tjhickey"
-                   onkeyup="this.value=this.value.toLowerCase();">
-            <input type="submit">
-        </form>
-        <br>
-        <form method="post" action="/courses/byKeyWord">
-            Show Courses by KeyWord: 
-            <input type="text" name="keyword" 
-                   placeholder="e.g. python">
-            <input type="submit">
-        </form>
-        <br>
-        <a href="/schedule/show">Show Schedule</a>
-    <% } %>
+        <div class="jumbotron text-center">
+            <h1>Welcome to the Cocktail Journal App!</h1>
+            <img src="<%=drinkImageURL%>" class ="rounded-circle w-25 h-25"><br>
+            <p></p>
+        </div>
+        <p class="lead p-3 m-3 border border-primary bg-light">
+            This app helps you keep journal entries of the cocktails you try! Please log in or sign up to unlock our features!
+        </p>
+     <%} else {%>
+        <div class="jumbotron text-center">
+            <h1>Welcome back, <%=username%>!</h1>
+            <img src="<%=drinkImageURL%>" class ="rounded-circle w-25 h-25"><br>
+            <p></p>
+        </div>
+        <p class="lead p-3 m-3 border border-primary bg-light">
+            Please navigate to the Add/Update Entry or Search Journal pages to use your journal!
+        </p>
+    <%}%>
+
+
+
 
 
