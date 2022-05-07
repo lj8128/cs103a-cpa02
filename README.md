@@ -1,5 +1,7 @@
 # Cocktail Journal Application (CS103A, CPA02)
 
+***IMPORTANT: Feel free to test the app with username:ll123 and password: abc***
+
 Link to movie explaining the app: 
 
 This is a web application that enables you to keep an online cocktail journal. You can use it to add and update journal entries, and search your journal based on certain inputs (e.g. name of drink, food pairing, rating, etc.).
