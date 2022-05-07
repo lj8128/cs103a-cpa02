@@ -1,6 +1,8 @@
 # Cocktail Journal Application (CS103A, CPA02)
 
-***IMPORTANT: Feel free to test the app with username:ll123 and password: abc***
+***IMPORTANT: Feel free to test the app with:***
+***username:ll123***  //The first two letters are 'LL' in lower-case.
+***password: abc***
 
 Link to movie explaining the app: 
 
