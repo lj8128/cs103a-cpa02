@@ -32,7 +32,7 @@ nodemon
 
 ## Welcome Page
 
-When you first access the webpage, you are greeted by the welcome page, prompting you to sign-up or log in. The image of the cocktail is randomly generated, each time you visit the page.
+<b>When you first access the webpage, you are greeted by the welcome page, prompting you to sign-up or log in. The image of the cocktail is randomly generated, each time you visit the page.</b>
 
 <img width="726" alt="Welcome_page" src="https://user-images.githubusercontent.com/93382045/167271890-a0d8f85f-9d2a-4dba-991f-7bc2bcfa8033.png">
 
